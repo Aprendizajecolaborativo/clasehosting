@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociedad de la Información</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Sociedad de la Información</h1>
+        <nav>
+            <ul>
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="sobre_autor.html">Autora</a></li>
+                <li><a href="sociedad_contemporanea.html">Sociedad Contemporánea</a></li>
+                <li><a href="sociedad_informacion.html">Sociedad de la Información</a></li>
+                <li><a href="sociedad_conocimiento.html">Sociedad del Conocimiento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>¿Qué es la Sociedad de la Información?</h2>
+            <p>
+                La Sociedad de la Información es aquella en la que la generación, distribución y manipulación de la información se convierte en la principal actividad económica y cultural. 
+                Este tipo de sociedad depende del uso de tecnologías como internet, bases de datos y sistemas de comunicación.
+            </p>
+            <p>
+                El objetivo de esta sociedad es facilitar el acceso universal a la información, promoviendo la educación y la igualdad de oportunidades mediante la tecnología.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p id="datetime"></p>
+    </footer>
+    <script>
+        const datetime = new Date();
+        document.getElementById("datetime").innerText = `Fecha y hora actual: ${datetime.toLocaleString()}`;
+    </script>
+</body>
+</html>

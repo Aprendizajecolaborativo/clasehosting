@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Sobre la Autora</h1>
+        <nav>
+            <ul>
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="sobre_autor.html">Autora</a></li>
+                <li><a href="sociedad_contemporanea.html">Sociedad Contemporánea</a></li>
+                <li><a href="sociedad_informacion.html">Sociedad de la Información</a></li>
+                <li><a href="sociedad_conocimiento.html">Sociedad del Conocimiento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Josselyn Estela Granda Alvarado</h2>
+            <p>
+                Soy una estudiante de la Universidad Técnica de Machala (UTMACH), apasionada por la tecnología educativa 
+                y su aplicación en la enseñanza superior. Me motiva el aprendizaje constante y el impacto positivo que 
+                las tecnologías pueden generar en la sociedad.
+            </p>
+            <p>
+                A lo largo de mi carrera, he trabajado en proyectos relacionados con la integración de herramientas 
+                tecnológicas para mejorar el acceso y la calidad de la educación, especialmente en comunidades vulnerables.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p id="datetime"></p>
+    </footer>
+    <script>
+        const datetime = new Date();
+        document.getElementById("datetime").innerText = `Fecha y hora actual: ${datetime.toLocaleString()}`;
+    </script>
+</body>
+</html>
